@@ -35,7 +35,8 @@ app.use(cors({
 
 const github={
     name : "gouracv",
-    age:27
+    age:27,
+    email:"bhattgourag6737634"
 }
 
 app.get("/github",(req,res)=>{
