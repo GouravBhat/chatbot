@@ -33,6 +33,15 @@ app.use(cors({
     credentials:true
 }));
 
+const github={
+    name : "gouracv",
+    age:27
+}
+
+app.get("/github",(req,res)=>{
+    res.json(github)
+})
+
 
 app.get('/', (req, res) => {
     res.send('Hello World!')
